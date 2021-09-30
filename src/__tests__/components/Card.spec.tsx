@@ -36,7 +36,7 @@ describe('Card', () => {
 
       expect(
         getAnimatedStyle(animatedView).transform[0].translateX
-      ).toBe(115.84867199999997);
+      ).toBe(112.236);
       expect(
         getAnimatedStyle(animatedView).opacity
       ).toBe(0.40140800000000004);
@@ -46,7 +46,7 @@ describe('Card', () => {
 
       expect(
         getAnimatedStyle(animatedView).transform[0].translateX
-      ).toBe(9);
+      ).toBe(0);
       expect(
         getAnimatedStyle(animatedView).opacity
       ).toBe(1);
